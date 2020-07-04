@@ -25,9 +25,8 @@ public class Calculator {
         int rs = a / b;
         return rs;
     }
-    
-}
-public static void main(String[] args) {
+	
+	public static void main(String[] args) {
     Calculator cal = new Calculator();
     System.out.println(cal.add(1, 2));
     System.out.println(cal.sub(5, 1));
@@ -35,3 +34,6 @@ public static void main(String[] args) {
     System.out.println(cal.div(6,3));
         
 }
+    
+}
+
