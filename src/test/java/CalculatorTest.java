@@ -54,7 +54,7 @@ public class CalculatorTest {
     @Test
     public void testSub() {
         int rs = cal.sub(4, 2);
-        int expected = 2;
+        int expected = 0;
         assertEquals(rs, expected);
     }
 
